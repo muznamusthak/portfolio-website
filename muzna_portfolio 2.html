@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muzna Musthak | Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#f5f7fa;color:#1f2937;line-height:1.6}
+header{position:fixed;top:0;width:100%;background:#0f172a;z-index:10}
+nav{max-width:1100px;margin:auto;padding:18px 25px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:24px;font-weight:bold;color:white}.logo span{color:#60a5fa}
+nav ul{display:flex;gap:25px;list-style:none}nav a{color:white;text-decoration:none}nav a:hover{color:#60a5fa}
+.hero{min-height:100vh;padding:130px 8% 70px;background:linear-gradient(135deg,#0f172a,#1e3a5f);color:white;display:flex;align-items:center}
+.hero-inner{max-width:1100px;width:100%;margin:auto;display:grid;grid-template-columns:1.3fr .7fr;gap:50px;align-items:center}
+.hero h4{color:#60a5fa;margin-bottom:10px}.hero h1{font-size:55px}.hero h1 span{color:#60a5fa}.hero h2{font-weight:normal;color:#dbeafe;margin:10px 0 20px}.hero p{color:#cbd5e1;max-width:650px;margin-bottom:25px}
+.btn{display:inline-block;background:#60a5fa;color:#0f172a;padding:12px 22px;border-radius:6px;text-decoration:none;font-weight:bold;margin:5px}
+.btn.outline{background:transparent;color:white;border:2px solid #60a5fa}
+.circle{width:280px;height:280px;border-radius:50%;border:7px solid #60a5fa;background:#1e293b;display:flex;align-items:center;justify-content:center;margin:auto;box-shadow:0 0 40px #60a5fa44}.circle span{font-size:80px;font-weight:bold;color:#60a5fa}
+section{padding:85px 8%}.container{max-width:1100px;margin:auto}.title{text-align:center;margin-bottom:45px}.title h2{font-size:36px;color:#0f172a}.title p{color:#64748b}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:30px}.card,.skillbox,.edu{background:white;padding:28px;border-radius:12px;box-shadow:0 5px 18px #0000000d}.card{border-left:5px solid #2563eb}.card h3,.skillbox h3{margin-bottom:15px}
+#education,#languages{background:#eef2f7}.education{max-width:850px;margin:auto}.edu{margin-bottom:20px;border-left:5px solid #2563eb}.year{color:#2563eb;font-weight:bold}
+.skills{display:grid;grid-template-columns:1fr 1fr;gap:25px}.skillbox ul{list-style:none}.skillbox li{padding:8px 0;border-bottom:1px solid #e5e7eb}.skillbox li::before{content:"✓";color:#2563eb;font-weight:bold;margin-right:9px}
+.languages{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.lang{text-align:center;background:white;padding:30px;border-radius:12px;box-shadow:0 5px 18px #0000000d}
+#contact{background:#0f172a;color:white}.contact{display:grid;grid-template-columns:1fr 1fr;gap:35px}.contact h2{color:white}.contact p{color:#cbd5e1;margin:12px 0}.form{background:#1e293b;padding:25px;border-radius:10px}.form input,.form textarea{width:100%;padding:13px;margin-bottom:12px;border:0;border-radius:5px}.form textarea{height:120px}
+footer{text-align:center;background:#020617;color:#94a3b8;padding:20px}
+@media(max-width:800px){nav{flex-direction:column;gap:12px}nav ul{flex-wrap:wrap;justify-content:center;gap:12px}.hero-inner,.about,.skills,.contact{grid-template-columns:1fr;text-align:center}.circle{order:-1;width:210px;height:210px}.circle span{font-size:60px}.languages{grid-template-columns:1fr}.hero h1{font-size:40px}}
+</style>
+</head>
+<body>
+<header><nav><div class="logo">Muzna<span>.</span></div><ul>
+<li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#education">Education</a></li><li><a href="#skills">Skills</a></li><li><a href="#languages">Languages</a></li><li><a href="#contact">Contact</a></li>
+</ul></nav></header>
+
+<section class="hero" id="home"><div class="hero-inner"><div>
+<h4>WELCOME TO MY PORTFOLIO</h4><h1>I'm <span>Muzna Musthak</span></h1><h2>Data Science Enthusiast</h2>
+<p>Motivated and detail-oriented fresher with a Bachelor's degree in Commerce with Computer Applications and currently pursuing a Postgraduate Diploma in Data Science. Passionate about data analysis, problem solving and transforming data into meaningful insights.</p>
+<a href="#about" class="btn">About Me</a><a href="#contact" class="btn outline">Contact Me</a>
+</div><div class="circle"><span>MM</span></div></div></section>
+
+<section id="about"><div class="container"><div class="title"><h2>About Me</h2><p>Career objective and personal information</p></div><div class="about">
+<div class="card"><h3>Career Objective</h3><p>Motivated and detail-oriented fresher with a Bachelor's degree in Commerce with Computer Applications and currently pursuing a Postgraduate Diploma in Data Science. Possesses a strong foundation in commerce, computer applications, and data analysis, with a keen interest in transforming data into actionable business insights.</p><br><p>Eager to apply analytical thinking, problem-solving skills, and technical knowledge in an entry-level Data Analyst or Data Science role. A quick learner with strong communication, adaptability, and a commitment to continuous professional growth.</p></div>
+<div><div class="card"><h3>Location</h3><p>Varam, Kannur, Kerala</p></div><br><div class="card"><h3>Career Interest</h3><p>Data Analyst / Data Science</p></div><br><div class="card"><h3>Nationality</h3><p>Indian</p></div></div>
+</div></div></section>
+
+<section id="education"><div class="container"><div class="title"><h2>Education</h2><p>My academic journey</p></div>
+<div class="education">
+<div class="edu"><h3>PG Data Science (Pursuing)</h3><div class="year">2024 – Present</div><p>Postgraduate Diploma in Data Science</p></div>
+<div class="edu"><h3>Bachelor of Commerce with Computer Application</h3><div class="year">2023 – 2026</div><p>Jamia Hamdard Kannur Campus, Kannur City, Kerala</p></div>
+<div class="edu"><h3>Higher Secondary Education</h3><div class="year">2021 – 2023</div><p>Commerce Stream<br>DIS Girls Higher Secondary School, Kannur City, Kerala</p></div>
+<div class="edu"><h3>High School</h3><div class="year">2021</div><p>CHM Higher Secondary School, Varam, Kannur, Kerala</p></div>
+</div></div></section>
+
+<section id="skills"><div class="container"><div class="title"><h2>Skills</h2><p>Professional and technical abilities</p></div><div class="skills">
+<div class="skillbox"><h3>Key Competencies</h3><ul><li>Data Analysis</li><li>MS Excel</li><li>PowerPoint</li><li>C++ Programming</li><li>Problem Solving</li><li>Communication</li><li>Adaptability</li></ul></div>
+<div class="skillbox"><h3>Technical Skills</h3><ul><li>C++</li><li>MS Word</li><li>MS Excel</li><li>PowerPoint</li></ul></div>
+<div class="skillbox"><h3>Soft Skills</h3><ul><li>Strong analytical and problem-solving abilities</li><li>Good knowledge of MS Office tools</li><li>Basic programming in C++</li><li>Effective communication and teamwork</li><li>Quick learner and adaptable to new technologies</li></ul></div>
+<div class="skillbox"><h3>Career Strengths</h3><ul><li>Analytical Thinking</li><li>Problem Solving</li><li>Continuous Learning</li><li>Teamwork</li><li>Professional Adaptability</li></ul></div>
+</div></div></section>
+
+<section id="languages"><div class="container"><div class="title"><h2>Languages</h2><p>Languages known</p></div><div class="languages"><div class="lang">🇬🇧<h3>English</h3></div><div class="lang">🇮🇳<h3>Malayalam</h3></div><div class="lang">🇮🇳<h3>Hindi</h3></div></div></div></section>
+
+<section id="contact"><div class="container"><div class="title"><h2>Contact Me</h2><p>Feel free to get in touch</p></div><div class="contact">
+<div><h3>Let's Connect</h3><p>📍 Varam, Kannur, Kerala</p><p>📞 +91 8089340624</p><p>✉️ muznamustha7@gmail.com</p></div>
+<form class="form"><input type="text" placeholder="Your Name" required><input type="email" placeholder="Your Email" required><input type="text" placeholder="Subject"><textarea placeholder="Your Message"></textarea><button class="btn" type="submit">Send Message</button></form>
+</div></div></section>
+
+<footer>© 2026 Muzna Musthak | Data Science Enthusiast</footer>
+</body>
+</html>
